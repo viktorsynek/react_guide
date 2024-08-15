@@ -44,7 +44,7 @@ You can put more complex expressions inside the JSX curly braces too, for exampl
 ```javascript
 return (
   <h1>
-    {user.name}
+    {user.name} // user obviously have to be declared beforehand 
   </h1>
 );
 ```
@@ -71,7 +71,7 @@ return (
 
 ```javascript
 <div>
-  {isLoggedIn && <AdminPanel />} // In this context basically means, is isLoggedIn, then render AdminPanel.
+  {isLoggedIn && <AdminPanel />} // In this context it basically means, if isLoggedIn true, then render AdminPanel.
 </div>
 ```
 
