@@ -32,11 +32,12 @@ export default function MyApp() {
 
 ## Syntax
 
-- React uses the JSX syntax by default - it is stricter than HTML so for elements that are written in the following format: ``<br/>`` are needed to be wrapped in either a div element, or an empty <>...</> wrapper
+- React uses the JSX syntax by default - it is stricter than HTML so for elements that are written in the following format: ``<br/>`` (self-closed tags) - are needed to be wrapped in either a ``<div>...</div>``, or an empty ``<>...</>`` wrapper
 
-- To add class to an element, we use **className** instead of class.
+- To add class to an element, we use **className** instead of class, like in HTML.
 
 - Rendering is straight forward, you put elements inside the return() function.
+
 You can put more complex expressions inside the JSX curly braces too, for example:
 
 
