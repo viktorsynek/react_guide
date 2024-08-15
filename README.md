@@ -126,7 +126,7 @@ function MyButton() {
 
 ## Updating the screen
 
-Sometimes you want your component to be dynamically changed and displayed. Let's say we want a counter that get's increased every time we click the button. For this we could use the ``useState()`` function - we first import this from 'React':
+Sometimes you want your component to be dynamically changed and displayed. Let's say we want a counter that gets increased every time we click the button. For this we could use the ``useState()`` function - we first import this from 'React':
 
 ```javascript
 import {useState} from 'react';
