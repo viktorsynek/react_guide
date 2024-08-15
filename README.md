@@ -140,6 +140,8 @@ const [count, setCount] = useState(0); // The default value of count is 0
 Let's look at count as a variable, and we change the value of that variable with the ``setCount()`` function. So the whole code would look something like this:
 
 ```javascript
+import {useState} from 'react';
+
 function MyButton() {
   const [count, setCount] = useState(0); // The default value of count is 0
 
