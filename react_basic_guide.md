@@ -1,7 +1,6 @@
 # React Notes 
-## React Basics - Components & Syntax
+## React Basics - Components, Syntax, Rendering
 ###### Written @ 2024.aug.15 by [Viktor Synek](https://github.com/viktorsynek)
-
 
 ## Components
 
@@ -172,7 +171,7 @@ export default function MyApp() {
 }
 ```
 
-In this case there would be two button, which would update separately with two different counters, meaning a component variable's data is not shared.
+In this case there would be two buttons, which would update separately with two different counters, meaning a component variable's data is not shared.
 
 *So what if we want to share their data accross other components?*
 
