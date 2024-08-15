@@ -3,7 +3,7 @@
 ###### Written @ 2024.aug.15 by [Viktor Synek](https://github.com/viktorsynek)
 
 
-#### Components
+## Components
 
 - Components are basically blocks of the UI, that can be as small as a button, or as big as a whole page.
 
@@ -30,7 +30,7 @@ export default function MyApp() {
 }
 ```
 
-#### Syntax
+## Syntax
 
 - React uses the JSX syntax by default - it is stricter than HTML so for elements that are written in the following format: ``<br/>`` are needed to be wrapped in either a div element, or an empty <>...</> wrapper
 
@@ -48,7 +48,7 @@ return (
 );
 ```
 
-#### Conditional rendering
+## Conditional rendering
 
 - You can use an if statement to conditionally include JSX: example code:
 
@@ -74,7 +74,7 @@ return (
 </div>
 ```
 
-#### Rendering Lists
+## Rendering Lists
 
 You can use JavaScript features like ``for`` loop or array ``map()`` function to render a list of componenets.
 
@@ -105,7 +105,7 @@ return (
 Notice how ``<li>`` has a key attribute. For each item in a list, you should pass a string or a number that uniquely identifies that item among its siblings. Usually, a key should be coming from your data, such as a database ID.
 
 
-#### EventHandlers in React
+## EventHandlers in React
 
 Let's say you would need an alert on a button click. Using HTML and JavaScript, would require an EventListener to this, in React we just simply add a ``onClick`` attribute to our button, passing in a function, which was defined beforehand. Example:
 
@@ -123,7 +123,7 @@ function MyButton() {
 }
 ```
 
-#### Updating the screen
+## Updating the screen
 
 Sometimes you want your component to be dynamically changed and displayed. Let's say we want a counter that get's increased every time we click the button. For this we could use the ``useState()`` function - we first import this from 'React':
 
