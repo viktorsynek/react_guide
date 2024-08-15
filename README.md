@@ -147,7 +147,7 @@ function MyButton() {
   const [count, setCount] = useState(0); // The default value of count is 0
 
   function handleClick() {
-    setCount(count + 1); // Increase the value by one "count += 1"
+    setCount(count + 1); // Increase the value by one. Essentially: "count += 1"
   }
 
   return (
