@@ -86,7 +86,7 @@ When you click the button, the ``onClick`` handler fires. Each button’s onClic
 - The *DOM* is an API (Programming Interface) for JavaScript, it can manage HTML elements, etc.
 
 ###### DOM Image Reference
-[!dom](https://www.w3schools.com/whatis/img_htmltree.gif)
+![dom](https://www.w3schools.com/whatis/img_htmltree.gif)
 
 #### Okay, so what is ReactDOM?
 
