@@ -7,7 +7,7 @@
 
 - Components are basically blocks of the UI, that can be as small as a button, or as big as a whole page.
 
-- You can nest components together. React components always start with capital letter, that's how you know it's a component.
+- React components always start with capital letter, and you can nest components together.
 
 ```javascript
 function MyButton() {
