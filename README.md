@@ -158,3 +158,22 @@ function MyButton() {
   );
 }
 ```
+
+What do you think would happen if we would render this ``MyButton`` component above - twice in our main App?
+
+```javascript
+export default function MyApp() {
+  return (
+    <div>
+      <MyButton />
+      <MyButton />
+    </div>
+  );
+}
+```
+
+In this case there would be two button, which would update separately with two different counters, meaning a component variable's data is not shared.
+
+*So what if we want to share their data accross other components?*
+
+I will write about that in the next quide, and will also mention concepts like: Hooks, React DOM, and more.
