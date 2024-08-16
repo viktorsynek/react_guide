@@ -8,7 +8,7 @@
 
 - A component's lifecycle has three main phases: the Mounting Phase, the Updating Phase, and the Unmounting Phase. 
 
-#### Mounting Phase
+### Mounting Phase
 
 - The mounting phase refers to the period, when a component gets created by the DOM.
 
@@ -91,7 +91,7 @@ render() {
 
 [NOTE: Keep in mind, without the setTimeout, the value of favoritefood would've been pizza right after it is mounted into the DOM.]
 
-#### Updating Phase
+### Updating Phase
 
 - This phase occurs when a component's props or state changes, and the component needs to be updated in the DOM.
 
@@ -106,7 +106,7 @@ But this method is not recommended for updating the state, as it can cause an in
 The ``componentDidUpdate()`` method is a lifecycle method in React that is called after a component has been updated and re-rendered. It is useful for performing side effects or additional operations when the component's props or state have changed.
 
 
-#### Unmounting Phase
+### Unmounting Phase
 
 - The unmounting phase refers to the lifecycle stage when a component is being removed from the DOM (Document Object Model) and is no longer rendered or accessible.
 
