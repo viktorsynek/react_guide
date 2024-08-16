@@ -1,6 +1,6 @@
 # React Notes
 ## React Basics - Component Lifecycle, useEffect, Forms
-###### Written @ 2024.aug.16 by [Viktor Synek](https://github.com/viktorsynek)
+###### Written @ 2024.aug.17 by [Viktor Synek](https://github.com/viktorsynek)
 
 ## Component Lifecycle
 
