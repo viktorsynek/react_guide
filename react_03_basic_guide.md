@@ -34,7 +34,7 @@ Example code:
 
 In this example, the ``constructor()`` method sets the initial state of the component to an object with a count property set to ``0``, and binds the ``handleClick`` method to the component's instance.
 
-[NOTE:Tthe constructor is the only place where you should directly assign state using ``this.state = {...}`` rather than using ``this.setState()``]
+[**NOTE:** Tthe constructor is the only place where you should directly assign state using ``this.state = {...}`` rather than using ``this.setState()``]
 
 ##### The ``render()`` lifecycle method
 
@@ -89,7 +89,7 @@ render() {
 
 - And the ``render()`` method re-renders the h1 element, which now will say ```My Favorite Food is pizza```
 
-[NOTE: Keep in mind, without the setTimeout, the value of favoritefood would've been pizza right after it is mounted into the DOM.]
+[**NOTE:** Keep in mind, without the setTimeout, the value of favoritefood would've been pizza right after it is mounted into the DOM.]
 
 ### Updating Phase
 
