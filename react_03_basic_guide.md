@@ -144,17 +144,17 @@ So let's break it down:
 - If the dependency array is empty ``[]`` The effect will only run once after the initial render.
 
 
-#### Things to avoid
+### Things to avoid
 
 - **Infinite Loops:** If you don't use correct dependency array values, or don’t manage it correctly, you could trigger an infinite loop, where the effect continually runs and updates state.
 
 - **Stale Closures:** Always include all variables or props that the effect depends on in the dependency array. Failing to do so can cause the effect to reference outdated variables, leading to bugs.
 
-#### Effect timing
+### Effect timing
 
 ``useEffect`` runs asynchronously and doesn't block the browser from updating the screen. This is important for keeping the UI responsive, especially for effects that might take time to complete (like data fetching).
 
-#### Multiple useEffect hooks
+### Multiple useEffect hooks
 
 You can use multiple useEffect hooks in a single component, each for different purposes. React will handle them independently, allowing you to better organize your side effects.
 
@@ -179,7 +179,7 @@ function MyForm() {
 
 This will work as normal, the form will submit and the page will refresh. But this is generally not what we want to happen in React. We want to prevent this default behavior and let React control the form.
 
-#### Handling Forms
+### Handling Forms
 
 - Handling forms is about how you handle the data when it changes value or gets submitted.
 
