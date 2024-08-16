@@ -98,8 +98,10 @@ Earlier, React Developers directly manipulated the DOM elements which resulted i
 
 #### Virtual DOM
 
-To solve this issue, React brought into the scene the virtual DOM. The Virtual DOM can be referred to as a copy of the actual DOM representation that is used to hold the updates made by the user and finally reflect it over to the original Browser DOM at once consuming much lesser time.
+To solve this issue, React brought into the scene the *Virtual DOM*. The Virtual DOM can be referred to as a copy of the actual DOM representation that is used to hold the updates made by the user.
 
-``render()`` - This is one of the most important methods of ReactDOM. This function is used to render a single React Component or several Components wrapped together in a Component or a div element. 
+In other words: The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM.
 
+In React world, the term “virtual DOM” is usually associated with React elements since they are the objects representing the user interface. React, however, also uses internal objects called ``fibers`` to hold additional information about the component tree. They may also be considered a part of “virtual DOM” implementation in React.
 
+__React Fiber__ is the new reconciliation engine in React 16. Its main goal is to enable incremental rendering of the virtual DOM. 
