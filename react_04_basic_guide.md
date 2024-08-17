@@ -82,6 +82,8 @@ const Navbar = () => {
 export default = Navbar;
 ```
 
+## Moving on . . . 
+
 Moving on, I will start working with **TypeScript**, and make notes about that. Later on I will try to cover more advanced React concepts, hooks like ``userParams, useHistory, useNavigate`` and so on - These topics will most likely be written in TypeScript. 
 
 Thank you for taking the time to read it, and good luck with your React journey. ✨
