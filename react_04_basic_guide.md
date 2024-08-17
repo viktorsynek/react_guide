@@ -1,6 +1,6 @@
 # React Notes
 ## React Basics - React Router
-###### Written @ 2024.aug.17 by [Viktor Synek](https://github.com/viktorsynek)
+###### Written @ 2024.aug.18 by [Viktor Synek](https://github.com/viktorsynek)
 
 ## Client Routes
 
@@ -81,3 +81,7 @@ const Navbar = () => {
 
 export default = Navbar;
 ```
+
+Moving on, I will start working with **TypeScript**, and make notes about that. Later on I will try to cover more advanced React concepts, hooks like ``userParams, useHistory, useNavigate`` and so on - These topics will most likely be written in TypeScript. 
+
+Thank you for taking the time to read it, and good luck with your React journey. ✨
