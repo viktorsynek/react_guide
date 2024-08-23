@@ -4,7 +4,7 @@
 
 ## Pre-Installation
 
-Before we setup our project, we need to have [Node](https://nodejs.org/en) installed.
+Before we setup our project, you gotta have [Node](https://nodejs.org/en) installed.
 
 Node comes with a package manager known as: ``npm`` (Node Package Manager)
 
