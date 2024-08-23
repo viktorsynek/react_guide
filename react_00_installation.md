@@ -56,7 +56,10 @@ root.render(
 
 You can also remove the ``logo.svg`` file, as this is only for the basic react app, and you will not need this at all.
 
-Then open up ``App.js`` and remove the first line, and you can also remove everything inside ``return`` and replace it with something like ``<h1>hello world</h1>``
+Then open up ``App.js`` and remove the first line, and you can also remove everything inside ``return`` and replace it with something like 
+```html 
+<h1>hello world</h1>
+```
 
 So ``App.js`` should look like the following:
 
